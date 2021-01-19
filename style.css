@@ -11,10 +11,23 @@ body {
     background-color: #6a2dd6;
 }
 
+.btn-primary:active {
+    background-color: #5728AA !important;
+}
+
 .btn-secondary {
     background-color: #00c4b4;
 }
 
 .btn-secondary:hover {
     background-color: #02ad9f;
+}
+
+.btn-secondary:active {
+    background-color: #039387 !important;
+}
+
+.btn {
+    border-radius: 14px;
+    border-width: 0px;
 }
