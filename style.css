@@ -42,6 +42,7 @@ body {
     border-width: 0px;
     margin: 15px 0;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+    font-size: 17px;
 }
 
 /* Start burger menu */
@@ -268,4 +269,5 @@ h1 {
     font-weight: lighter;
     text-align: center;
     font-size: 30px;
+    word-break: normal;
 }
