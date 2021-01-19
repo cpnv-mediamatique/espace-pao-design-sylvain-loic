@@ -1,51 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Blank Template for Bootstrap</title>
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+       <!-- Bootstrap core CSS -->
+        <!-- <link href="bootstrap/css/bootstrap.css" rel="stylesheet"> -->
         <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
-            <div class="outer-menu">
-                <input class="checkbox-toggle" type="checkbox"/>
-                <div class="hamburger">
-                    <div></div>
-                </div>
-                <div class="menu">
-                    <div>
-                        <div>
-                            <ul>
-                                <li>
-                                    <a href="#">About</a>
-                                </li>
-                                <li>
-                                    <a href="#">Products</a>
-                                </li>
-                                <li>
-                                    <a href="#">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Acceuil</li></a>
+      <a href="#"><li>Impression</li></a>
+      <a href="#"><li>Carte de viste</li></a>
+      <a href="#"><li>Les étiquettes</li></a>
+      <a href="#"><li>Les casiers pour natel</li></a>
+      <a href="#"><li>Les tableaux de répartition des tâches</li></a>
+      <a href="#"><li>Panier</li></a>
+      <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+    </ul>
+  </div>
+</nav>
+
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-    </body>
+</body>
 </html>
