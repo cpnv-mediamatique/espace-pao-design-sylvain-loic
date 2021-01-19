@@ -271,3 +271,28 @@ h1 {
     font-size: 30px;
     word-break: normal;
 }
+
+.imageProduit {
+    background-image: url('http://pinegrow.com/placeholders/img19.jpg');
+    background-size: cover;
+    width: 255px;
+    height: 150px;
+    display: flex;
+    background-position: center center;
+    margin: 30px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+}
