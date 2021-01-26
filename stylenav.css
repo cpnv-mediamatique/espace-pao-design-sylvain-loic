@@ -154,3 +154,20 @@
    transform: none;
  }
 /* End burger menu */
+
+a{
+
+ color:white;
+
+ text-decoration: none;
+
+}
+
+a:visited{
+
+    color: white;
+}
+#connexion{
+    text-align: right;
+    margin-right: 5px;
+}
