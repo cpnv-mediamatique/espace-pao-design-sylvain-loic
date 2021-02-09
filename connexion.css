@@ -38,12 +38,16 @@ form {
     display: flex;
     flex-direction: column;
     margin:auto;
+    padding-bottom: 20px;
 }
 
 .paswrd{
     display: flex;
     flex-direction: column;
     margin:auto;
+    padding-bottom: 20px;
+        
+
 }
 
 .submit{
@@ -52,4 +56,21 @@ form {
     margin:auto;
     align-items: center;
 
+    
+
 }
+
+
+
+
+.paswrd input{
+font-family: 'Roboto', sans-serif;
+color: #000000 !important;
+border-radius: 14px;
+}
+
+.mail input{
+    font-family: 'Roboto', sans-serif;
+    color: #000000 !important;
+    border-radius: 14px;
+    }
