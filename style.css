@@ -86,3 +86,8 @@ h2 {
 p {
     font-weight: lighter;
 }
+
+.btn-cmd {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
