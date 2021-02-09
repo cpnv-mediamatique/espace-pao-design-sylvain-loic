@@ -171,3 +171,7 @@ a:visited{
     text-align: right;
     margin-right: 5px;
 }
+img{
+  width: auto;
+  height:60px;
+}
