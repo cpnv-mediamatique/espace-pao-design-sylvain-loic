@@ -13,7 +13,7 @@ body {
 }
 
 .btn-primary:active {
-    background-color: #5728AA;
+    background-color: #5728AA !important;
 }
 
 .btn-primary:focus {
@@ -30,7 +30,7 @@ body {
 }
 
 .btn-secondary:active {
-    background-color: #039387;
+    background-color: #039387 !important;
 }
 
 .btn-secondary:focus {
@@ -45,7 +45,6 @@ body {
     font-size: 17px;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: center;
 }
 
 * {
@@ -91,20 +90,4 @@ p {
 .btn-cmd {
     margin-top: 0px;
     margin-bottom: 25px;
-}
-
-#cmd-etat {
-    color: #000000;
-}
-
-.carte {
-    border-radius: 14px;
-    border-width: 0px;
-    margin: 15px 0;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
-    font-size: 17px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    background-color: #1a1a1a;
 }
