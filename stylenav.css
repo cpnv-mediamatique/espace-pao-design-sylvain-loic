@@ -6,7 +6,7 @@
    margin: 0;
    padding: 0;
    
-   /* make it look decent enough */
+
    background: #232323;
    color: #2F2F2F;
    font-family: "Avenir Next", "Avenir", sans-serif;
@@ -29,13 +29,14 @@
  {
    text-decoration: none;
    color: #ffffff;
+   text-align: center;
    
    transition: color 0.3s ease;
  }
  
  #menuToggle a:hover
  {
-   color: tomato;
+   color: lightseagreen;
  }
  
  
@@ -50,15 +51,12 @@
    
    cursor: pointer;
    
-   opacity: 0; /* hide this */
-   z-index: 2; /* and place it over the hamburger */
+   opacity: 0; 
+   z-index: 2; 
    
    -webkit-touch-callout: none;
  }
  
- /*
-  * Just a quick hamburger
-  */
  #menuToggle span
  {
    display: block;
@@ -89,10 +87,7 @@
    transform-origin: 0% 100%;
  }
  
- /* 
-  * Transform all the slices of hamburger
-  * into a crossmark.
-  */
+ 
  #menuToggle input:checked ~ span
  {
    opacity: 1;
@@ -100,40 +95,32 @@
    background: #ffffff;
  }
  
- /*
-  * But let's hide the middle one.
-  */
+
  #menuToggle input:checked ~ span:nth-last-child(3)
  {
    opacity: 0;
    transform: rotate(0deg) scale(0.2, 0.2);
  }
- 
- /*
-  * Ohyeah and the last one should go the other direction
-  */
+
  #menuToggle input:checked ~ span:nth-last-child(2)
  {
    transform: rotate(-45deg) translate(0, -1px);
  }
  
- /*
-  * Make this absolute positioned
-  * at the top left of the screen
-  */
+
  #menu
  {
-   position: absolute;
-   width: 300px;
-   margin: -100px 0 0 -50px;
+   position: fixed;
+   width: 100vw;
+   height:100vh;
+   margin: -100px 0 0 -100px;
    padding: 50px;
    padding-top: 125px;
    
    background: #2F2F2F;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
-   /* to stop flickering of text in safari */
-   
+
    transform-origin: 0% 0%;
    transform: translate(-100%, 0);
    
@@ -143,12 +130,11 @@
  #menu li
  {
    padding: 10px 0;
-   font-size: 22px;
+   font-size: 40pt;
+   line-height: 100pt;
  }
  
- /*
-  * And let's slide it in from the left
-  */
+
  #menuToggle input:checked ~ ul
  {
    transform: none;
@@ -168,10 +154,14 @@ a:visited{
     color: white;
 }
 #connexion{
-    text-align: right;
-    margin-right: 5px;
+    text-align:right;
+    margin-right: 40px;
+    font-size: 20pt;
+    margin-top: -80px;
 }
 img{
   width: auto;
   height:60px;
+ margin-left: 35px;
+  margin-top: 70px;
 }
