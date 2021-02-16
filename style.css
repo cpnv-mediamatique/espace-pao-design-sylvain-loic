@@ -46,7 +46,6 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    text-decoration: none;
 }
 
 * {
@@ -95,7 +94,7 @@ p {
 }
 
 select {
-    color: #000000;
+    color: #2F2F2F;
 }
 
 .carte {
