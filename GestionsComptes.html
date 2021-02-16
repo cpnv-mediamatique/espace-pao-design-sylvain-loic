@@ -11,17 +11,27 @@
     </head>
     <body>
         <div class="container">
-            <h1>Gestion des commandes</h1>
-            <button type="button" class="btn btn-primary">
-                <span>Commande N<sup>o</sup> 1</span>
-                <p>État : En attente</p>
-            </button>
-            <button type="button" class="btn btn-cmd btn-secondary">Prendre la commande</button>
-            <button type="button" class="btn btn-primary">
-                <span>Commande N<sup>o</sup> 2</span>
-                <p>État : En cours de traitement</p>
-            </button>
-            <button type="button" class="btn btn-cmd btn-secondary">Terminer la commande</button>
+            <h1>Gestion des comptes</h1>
+            <div class="carte">
+                <h2>jean.tinguely@cpnv.ch</h2>
+                <label for="compte-statut">Statut : </label>
+                <select id="compte-statut">
+                    <option value="eleve">Élève</option>
+                    <option value="cbe">Élève CBE</option>
+                    <option value="enseignant">Enseignant</option>
+                    <option value="admin" selected>Admin</option>
+                </select>
+            </div>
+            <div class="carte">
+                <h2>darius.rochebin@cpnv.ch</h2>
+                <label for="compte-statut">Statut : </label>
+                <select id="compte-statut">
+                    <option value="eleve" selected>Élève</option>
+                    <option value="cbe">Élève CBE</option>
+                    <option value="enseignant">Enseignant</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
         </div>
     </body>
 </html>
