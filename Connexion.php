@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Blank Template for Bootstrap</title>
+        <title>Connexion</title>
         <link href="connexion.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <?php include("navbar.php"); ?>
         <h1>Connexion</h1>
         <div class="container">
             <form action="post_login.php" method="post">

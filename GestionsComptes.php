@@ -10,6 +10,7 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <?php include("navbar.php"); ?> 
         <div class="container">
             <h1>Gestion des comptes</h1>
             <div class="carte">

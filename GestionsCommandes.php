@@ -10,6 +10,7 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <?php include("navbar.php"); ?>
         <div class="container">
             <h1>Gestion des commandes</h1>
             <a href="Commande.html" class="btn btn-primary"> <span>Commande N<sup>o</sup> 1</span> <p>État : En attente</p> </a>

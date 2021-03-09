@@ -10,20 +10,19 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <?php include("navbar.php"); ?>
         <div class="container">
-            <h1>Commande N<sup>o</sup> x</h1>
-            <div>
-                <label for="cmd-etat">État :</label>
-                <select id="cmd-etat" data-pg-name="etat">
+            <h1>Panier</h1>
+            <div class="carte panier">
+                <label for="cmd-etat">Etat : </label>
+                <select id="cmd-etat">
                     <option value="enAttente">En attente</option>
                     <option value="enCours" selected>En cours</option>
                     <option value="termine">Terminé</option>
                 </select>
+                <h3>Détaille de la commande :</h3>
+                <p>100 x Carte de visite</p>
             </div>
-            <h3>Commendé par :</h3>
-            <span>jean.tinguely@cpnv.ch</span>
-            <h3>Détail de la commande :</h3>
-            <span>100 x Carte de visite</span>
         </div>
     </body>
 </html>

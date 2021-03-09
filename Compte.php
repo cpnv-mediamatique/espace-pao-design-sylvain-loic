@@ -6,13 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Blank Template for Bootstrap</title>
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
+        <title>Profil</title>
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <?php include("navbar.php"); ?>
         <div class="container">
             <h1>Profil</h1>
             <h1></h1>
@@ -23,8 +21,5 @@
             <a class="btn btn-primary">Changez de mot de passe</a>
             <a class="btn btn-primary btn-secondary">Déconnexion</a>
         </div>
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
     </body>
 </html>
